@@ -1,6 +1,6 @@
 var router = require("express").Router();
 const path = require("path");
-const backend = require("../../config").backend;
+const backend = require("../../confg").backend;
 
 var fs = require("fs");
 var multer = require("../../utilities/multer");
